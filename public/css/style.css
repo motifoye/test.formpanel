@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  font-size: 14px;
+  --bs-body-line-height: 1.1;
+  --bs-body-font-family: "Montserrat", sans-serif;
+}
+
+#out {
+  position: relative;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.col {
+  align-content: center;
+}
+
+.col > span {
+  display: block;
+  width: 110px;
+}
+
+a.btn,
+.confirmed {
+  width: 100%;
+}
+
+.confirmed {
+  background-color: #4fd986;
+  height: 100%;
+  align-content: center;
+  text-align: center;
+  color: white;
+  border-color: #4fd986;
+  pointer-events: none;
+}
+
+.btn-change {
+  font-weight: 700;
+}
+
+.bg-s {
+  background-color: #efefef;
+}
+
+.bg-t {
+  background-color: #e8e8e8;
+}
+
+.bg-nth:nth-child(even) {
+  background-color: #e8e8e8;
+}
+
+.bg-btn {
+  background-color: #d9d9d9;
+}
+
+.bg-btn.act {
+  background-color: #c0c0c0;
+  pointer-events: none;
+}
